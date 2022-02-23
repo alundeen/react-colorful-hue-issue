@@ -8,9 +8,7 @@ export default function App() {
     return (
         <div>
             <HexColorPicker color={color} onChange={setColor} />
-            <div className="value" style={{ borderColor: color }}>
-                {color}
-            </div>
+            <div>{color}</div>
         </div>
     );
 }
